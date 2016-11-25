@@ -326,7 +326,7 @@ Use the `manual` trigger to indicate the controller should not automatically val
       controller = null;
 
       constructor(controller) {
-        this.controller = ValidationControllerFactory.createForCurrentScope();
+        this.controller = controller.createForCurrentScope();
 
         this.controller.validateTrigger = validateTrigger.manual;
       }
