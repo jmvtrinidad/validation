@@ -162,7 +162,7 @@ Rules are evaluated in parallel. Use the `.then()` method to postpone evaluation
   </source-code>
 </code-listing>
 
-In the example above, the `emailNotAlreadyRegistered` custom rule will only be evaluated when the `email` property passes the `required()` and `email()` validations. Likewise, `usernameNotInUse` will be evaluated only when the `required()`, `minLength(3)` and `maxLength(50)` checks pass validation.
+In the example above, the `emailNotAlreadyRegistered` which is a [custom rule](http://aurelia.io/hub.html#/doc/article/aurelia/validation/latest/validation-basics/10) will only be evaluated when the `email` property passes the `required()` and `email()` validations. Likewise, `usernameNotInUse` will be evaluated only when the `required()`, `minLength(3)` and `maxLength(50)` checks pass validation.
 
 ### Tagging Rules
 
